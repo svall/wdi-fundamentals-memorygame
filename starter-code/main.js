@@ -5,16 +5,35 @@ var cardTwo = "queen";
 var cardThree = "king";
 var cardFour = "king";
 
-if (cardTwo === cardFour) {
+/*if (cardTwo === cardFour) {
 	alert("Sorry, try again")
-} if else (cardTwo === cardThree) {
+} 
+else if (cardTwo === cardThree) {
 	alert("Sorry, try again")
-} if else (cardTwo ==== cardOne) {
+} 
+else if (cardTwo === cardOne) {
 	alert("Match found")
-} if else (cardOne === cardThree) {
+} 
+else if (cardOne === cardThree) {
 	alert("Sorry, try again")
-} if else (cardOne === cardFour) {
+} 
+else if (cardOne === cardFour) {
 	alert("Sorry, try again")
-} if else (cardThree === cardFour) {
+} 
+else if (cardThree === cardFour) {
 	alert("Match found")
+};*/
+
+
+var newBoard = document.getElementById('game-board');
+
+function createBoard() {
+
+	for (var i = 0; i < 4; i++) {
+		var newCard = document.createElement('div');
+		newCard.className = 'card';
+		newBoard.appendChild(newCard);
+	}
 }
+
+createBoard();

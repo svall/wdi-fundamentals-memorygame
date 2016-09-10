@@ -64,6 +64,13 @@ h2 {
 	color: #ff0000;
 }
 
+img {
+	height: 200px;
+	width: 150px;
+	border-radius: 10px;
+	background-color: none;
+}
+
 footer {
 	clear: both;
 	background-color: #808080;

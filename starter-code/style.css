@@ -42,7 +42,7 @@ h2 {
 
 .board {
 	display: inline-block;
-	float: left;
+	/*float: left;*/
 	margin: 8%;
 	height: 50%;
 	width:50%;
